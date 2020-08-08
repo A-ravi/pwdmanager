@@ -1,0 +1,5 @@
+git clone: get repo
+git status : check for file
+git add . : stage changes to repo before uploading
+git commit -m : commit changes to local repo
+git push origin master: push all our to website
