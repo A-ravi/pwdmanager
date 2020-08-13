@@ -1,0 +1,35 @@
+body{
+    width:960px;
+    padding: 100px;
+}
+
+header{
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-left: 50px;
+    float:left;
+    width:960px;
+    padding: 100px 200px 100px 200px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 8px
+    
+}
+.remem{
+    float:left;
+}
+.forgot{
+    float:right;
+}
+button{
+    margin-top: 80px;
+    height: 40px;
+    width: 90px;
+    align-self: center;
+}
