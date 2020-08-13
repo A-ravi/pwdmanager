@@ -23,6 +23,8 @@ input{
 }
 .remem{
     float:left;
+    display: inline;
+    
 }
 .forgot{
     float:right;
