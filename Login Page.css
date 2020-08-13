@@ -12,6 +12,9 @@ header{
     text-shadow: 2px 1px white;
     font-size: 40px;
     color: lightslategray;
+    /*background: url(design12.jfif);
+    border-radius: 20px;
+    width:1000px;*/
 }
 form{
     margin: 0 auto;
@@ -48,13 +51,15 @@ button{
     height: 50px;
     width: 200px;
     align-self: center;
-    font-size: 17px;
+    font-size: 19px;
     cursor:pointer;
     colorblack;
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    opacity: 0.6;
+    opacity: 0.6;*/
+    background: url(design12.jfif);
+    border-radius: 20px;
 }
 button:hover{
     background-color: cornflowerblue;
@@ -70,8 +75,11 @@ button:active{
     width: 600px;
     margin: 0 auto;
     margin-top: 50px;
-    float: left;
     color:#000000;
+    background: url(design12.jfif);
+    border-radius: 20px;
+    padding-top:20px;
+    padding-left: 30px;
    
 
 }
