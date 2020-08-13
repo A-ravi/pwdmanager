@@ -2,12 +2,16 @@ body{
     width:960px;
     padding: 50px;
     background: url(design3.jpg);
+    font-size: 25px;
+    font-weight: 100;
+    color: #123456
 }
 
 header{
     text-align: center;
-    text-shadow: 2px 1px grey;
-    font-size: 30px;
+    text-shadow: 2px 1px white;
+    font-size: 40px;
+    color: lightslategray;
 }
 form{
     margin: 0 auto;
@@ -27,13 +31,13 @@ input{
     width: 100%;
     padding: 16px;
     margin-bottom: 8px;
+    opacity: 0.6;
+    font-size: 20px;
+    border-radius: 20px;
 }
 p{
-    margin-top: 50px;
+    margin-top: 70px;
 }
-.remem{
-    float:left;
-    display: inline;
     
 }
 .forgot{
@@ -44,26 +48,36 @@ button{
     height: 50px;
     width: 200px;
     align-self: center;
-    font-size: 15px;
+    font-size: 17px;
     cursor:pointer;
     colorblack;
-    background-color: rgb(0,0,0,0.3);
+    background-color: #f5f5f5;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    opacity: 0.6;
 }
-.button:active{
+button:hover{
+    background-color: cornflowerblue;
+    color:white;
+}
+button:active{
     transform: translateY(4px);
-    background-color: #3e8e41;
+    background-color: darkslateblue;
     box-shadow: 0 5px #666;
 }
 .foot{
     height:50px;
-    width: 350px;
+    width: 600px;
     margin: 0 auto;
-    margin-top: 100px;
-    text-align: center;
-    float:bottom;
+    margin-top: 50px;
+    float: left;
+    color:#000000;
+   
 
+}
+a{
+    color:white;
+    text-decoration: none;
 }
 
 
