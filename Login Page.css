@@ -1,25 +1,35 @@
 body{
     width:960px;
-    padding: 100px;
+    padding: 50px;
+    background: url(design3.jpg);
 }
 
 header{
     text-align: center;
+    text-shadow: 2px 1px grey;
+    font-size: 30px;
 }
 form{
     margin: 0 auto;
     box-sizing: border-box;
-    margin-left: 50px;
-    float:left;
+    margin-left: 60px;
     width:960px;
-    padding: 100px 200px 100px 200px;
+    padding: 90px 200px 50px 200px;
     text-align: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    min-width: 500px;
+    min-height: 500px;
+    box-shadow: 10px 10px 5px grey;
+    background-color: rgba(0,0,0,0.2);
 }
 input{
     width: 100%;
     padding: 16px;
-    margin-bottom: 8px
-    
+    margin-bottom: 8px;
+}
+p{
+    margin-top: 50px;
 }
 .remem{
     float:left;
@@ -31,7 +41,30 @@ input{
 }
 button{
     margin-top: 80px;
-    height: 40px;
-    width: 90px;
+    height: 50px;
+    width: 200px;
     align-self: center;
+    font-size: 15px;
+    cursor:pointer;
+    colorblack;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
+.button:active{
+    transform: translateY(4px);
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+.foot{
+    height:50px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    float:bottom;
+
+}
+
+
+
