@@ -18,7 +18,8 @@
         opacity: 0.4;
         top: 35px;
         left:150px;
-        position: relative;        
+        position: relative; 
+               
    }
 body{
     text-align: center;
@@ -64,4 +65,12 @@ button{
     }
     .login{
         margin-right: 20px;
+    }
+    a{
+        color: #123456;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: none;
+        color:white;
     }
