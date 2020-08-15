@@ -14,8 +14,8 @@
         height:90px;
         width:90px;
         border-radius: 45px;
-        background:/*rgb(229, 229, 235)*/ url(design13.jfif);
-        opacity: 0.2;
+        background:/*rgb(229, 229, 235)*/ url(design3.jpg);
+        opacity: 0.4;
         top: 35px;
         left:150px;
         position: relative; 
@@ -54,23 +54,23 @@ button{
         background: url(design12.jfif);
         font-size: 20px;
     }
-    button:hover{
+button:hover{
         background-color: cornflowerblue;
         color:white;
     }
-    button:active{
+button:active{
         transform: translateY(4px);
         background-color: darkslateblue;
         box-shadow: 0 5px #666
     }
-    .login{
+.login{
         margin-right: 20px;
     }
-    a{
+a{
         color: #123456;
         text-decoration: none;
     }
-    a:hover{
+a:hover{
         background-color: none;
         color:white;
     }
