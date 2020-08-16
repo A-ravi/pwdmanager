@@ -3,7 +3,7 @@ body{
     width:960px;
     margin: 0 auto;
     font-size: 22px;
-    background: url(design3.jpg);
+    background: url(../design3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #123456;
