@@ -4,7 +4,7 @@
         height:200px;
         width:400px;
         border-radius:0 0 200px 200px;
-        background: url(design12.jfif);
+        background: url(../design12.jfif);
         margin: 0 auto;
         font-size: 30px;
         
@@ -14,7 +14,7 @@
         height:90px;
         width:90px;
         border-radius: 45px;
-        background:/*rgb(229, 229, 235)*/ url(design3.jpg);
+        background:/*rgb(229, 229, 235)*/ url(../design3.jpg);
         opacity: 0.4;
         top: 35px;
         left:150px;
@@ -26,7 +26,7 @@ body{
     width:960px;
     margin: 0 auto;
     font-size: 22px;
-    background: url(design3.jpg);
+    background: url(../design3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #123456;
@@ -51,7 +51,7 @@ button{
         border-radius: 20px;
         margin-top: 70px;
         cursor: pointer;
-        background: url(design12.jfif);
+        background: url(../design12.jfif);
         font-size: 20px;
     }
 button:hover{
