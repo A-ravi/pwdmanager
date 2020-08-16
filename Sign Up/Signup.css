@@ -33,7 +33,7 @@ button{
     border-radius: 20px;
     margin-left: 20px;
     cursor: pointer;
-    background: url(design12.jfif);
+    background: url(../design12.jfif);
     font-size: 20px;
 }
 button:hover{
@@ -53,8 +53,7 @@ form{
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px grey;
-    background-color: rgba(0,0,0,0.2);
+
     width:500px;
     margin: 0 auto;
 }
@@ -65,7 +64,7 @@ footer{
     margin: 0 auto;
     margin-top: 50px;
     color:#000000;
-    background: url(design12.jfif);
+    background: url(../design12.jfif);
     border-radius: 20px;
     padding-top:20px;
     padding-left: 30px;

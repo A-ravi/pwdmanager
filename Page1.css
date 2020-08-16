@@ -1,0 +1,22 @@
+body{
+    height: 600px;
+    width: 680px;
+    background: url(design12.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #123456;
+    box-sizing: border-box;
+    }
+h1{
+        font-size: 40px;
+        text-shadow: 3px 4px lightslategray;
+    }
+img{
+    border-radius: 10px;
+
+    }
+p{
+    margin-top: 30px;
+}    
+    

@@ -1,44 +1,63 @@
 body{
-    margin: 0 auto;
     text-align: center;
+    background: url(design3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #123456;
 }
 
 .container{
-    width: 960px;    
+    width: 960px;   
     margin: 0 auto;
+    height: 650px;
+    box-shadow: 10px 10px 5px grey;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-header, nav, .sectn, footer{
-    border: 1px solid grey;
+nav, iframe{
+    border: 0.5px solid slategray;
     margin-bottom: 10px;
     border-radius: 20px;
     box-sizing: border-box;
-    }
-
-header, footer{
-    padding: 20px 0;
+    box-shadow: 10px 10px 5px 2px slategrey;
 }
 
-nav, .sectn{
-    padding: 200px 0;
-    height: 200px;
+footer{
+    padding: 30px 0;
 }
 
-nav, .sectn, footer{
+nav, iframe{
+    
+    height: 600px;
+}
+
+nav, iframe, footer{
     float: left;
+}
+
+header{
+    font-size: 30px;
+    text-shadow: 3px 4px lightslategray;
 }
 
 nav{
     width: 200px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.sectn{
-    width: 745px;
+iframe{
+    width: 735px;
+    border: none;
+   
 }
 
 footer{
     width: 960px;
+    font-size: 20px;
 }
 
 button{
@@ -46,6 +65,22 @@ button{
     padding: 10px;
     cursor: pointer;
     background: url(design12.jfif);
-    font-size: 12px;
-
+    font-size: 13px;
+    margin-top: 40px;
+    font-size: 13px;
 }
+
+button:hover{
+    color:white;
+    }
+
+button:active{
+    transform: translateY(4px);
+    background-color: darkslateblue;
+    box-shadow: 0 5px #666
+    }
+
+.new{
+        width: 180px;
+        text-align: left;
+    }

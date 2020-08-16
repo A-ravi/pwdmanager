@@ -45,30 +45,30 @@ body{
 }
 button{
     margin-top: 100px;
-        padding:10px;
-        width: 200px;
-        border: 2px solid slategray;
-        border-radius: 20px;
-        margin-top: 70px;
-        cursor: pointer;
-        background: url(../design12.jfif);
-        font-size: 20px;
+    padding:10px;
+    width: 200px;
+    border: 2px solid slategray;
+    border-radius: 20px;
+    margin-top: 70px;
+    cursor: pointer;
+    background: url(../design12.jfif);
+    font-size: 20px;
     }
 button:hover{
-        background-color: cornflowerblue;
-        color:white;
+    background-color: cornflowerblue;
+    color:white;
     }
 button:active{
-        transform: translateY(4px);
-        background-color: darkslateblue;
-        box-shadow: 0 5px #666
+    transform: translateY(4px);
+    background-color: darkslateblue;
+    box-shadow: 0 5px #666
     }
 .login{
-        margin-right: 20px;
+    margin-right: 20px;
     }
 a{
-        color: #123456;
-        text-decoration: none;
+    color: #123456;
+    text-decoration: none;
     }
 a:hover{
         background-color: none;
