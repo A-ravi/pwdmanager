@@ -12,8 +12,9 @@
     </style>
 </head>
 <body>
+    <h1>Index page | Welcome Page</h1>
     <a href="login.php"><button>Login</button></a>
-    <br>
+    <br><br>
     <a href="signup.php"><button>Sign up</button></a>
     
 </body>
